@@ -1,0 +1,77 @@
+.registro-header {
+  position: absolute;
+  top: -20px; 
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 80px; 
+  height: auto;
+}
+
+.registro-body {
+  margin-top: 180px; 
+}
+
+.boton_eleccion_reg{
+  display: flex;
+  justify-content: center;  
+}
+
+.btn-personal {
+  border-radius: 50px 0 0 50px;
+  width: 50%;
+  background-color:  white;  
+  border-color: gray;
+}
+
+.btn-negocio {
+  border-radius: 0 50px 50px 0;
+  width: 50%;
+  background-color:  white;  
+  border-color: gray;
+}
+
+.boton_eleccion_reg .btn.active{
+  background-color:  rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.formulario_reg_1{
+  display: flex;  
+}
+
+.despliegue_reg{
+  color: rgb(102, 102, 102);
+}
+
+.enviar_reg{
+  width: 100%;
+}
+
+.botones_apps{
+display: flex;
+justify-content: space-around;
+}
+
+.boton_facebook{
+display: flex;
+align-items: center;
+}
+
+.boton_google{
+  display: flex;
+  align-items: center;
+}
+
+
+.boton_apple{
+  display: flex;
+  align-items: center;
+}

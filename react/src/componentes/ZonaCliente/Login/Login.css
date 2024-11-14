@@ -1,0 +1,97 @@
+/* Login */
+.Login {
+  background-color: white;
+}
+
+.logo_ebay {
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.contenedor {
+  margin-top: 100px;
+}
+
+.contenedor p:first-child {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contenedor p:last-child {
+  font-size: 1rem;
+  color: gray;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.Correo {
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.Continuar {
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #0070ba;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.Continuar:hover {
+  background-color: #005a9c;
+}
+
+
+.login_aplicaciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.login_aplicaciones button {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login_aplicaciones button.bg-primary {
+  background-color: #1877f2;
+  color: white;
+  border-radius: 100px;
+}
+
+.login_aplicaciones button.bg-white {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+.imagen_apps {
+  width: 25px;
+  margin-right: 10px;
+}
