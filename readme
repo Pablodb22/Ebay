@@ -1,1 +1,48 @@
-Pablo Ebay
+🛒 eBay Clone
+Este proyecto es una copia funcional de eBay, desarrollada con React en el frontend, Node.js en el backend y MongoDB como base de datos. Incluye funcionalidades clave como registro de usuarios, autenticación por correo electrónico, carrito de compras, y filtrado de productos por categoría.
+
+🚀 Funcionalidades principales
+🔐 Registro e inicio de sesión de usuarios
+
+Verificación por email con envío automático de correo.
+
+Autenticación segura con tokens.
+
+🛍️ Gestión de productos
+
+Visualización de productos por categoría.
+
+Detalle de producto.
+
+Añadir productos al carrito.
+
+🧾 Carrito de compras
+
+Añadir, eliminar y modificar cantidades.
+
+Visualización de resumen antes de la compra (sin integración de pago aún).
+
+⚙️ Gestión de usuario
+
+Cambio de dirección desde el perfil.
+
+Visualización de historial de pedidos (opcional si lo has implementado).
+
+🛠️ Tecnologías utilizadas
+Frontend
+React (con hooks y context API)
+
+React Router DOM
+
+Axios para peticiones HTTP
+
+Backend
+Node.js con Express
+
+MongoDB con Mongoose
+
+JWT para autenticación
+
+Nodemailer para el envío de correos
+
+📦 Instalación
