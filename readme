@@ -1,34 +1,27 @@
+# 🛒 eBay Clone
 
-# eBay Clone
+Este proyecto es un clon funcional de eBay, diseñado para replicar las principales características de una plataforma de comercio electrónico. Desarrollado con **React** en el frontend, **Node.js** en el backend y **MongoDB** como base de datos.
 
-Este proyecto es un clon de eBay diseñado para replicar las principales funcionalidades de la plataforma de comercio electrónico. La aplicación está desarrollada utilizando **React** para el frontend, **Node.js** para el backend y **MongoDB** como base de datos.
+## 🚀 Funcionalidades
 
-## Funcionalidades
+- 🔐 **Autenticación de usuarios con verificación por correo:** Registro e inicio de sesión con envío de enlace de verificación a la cuenta de correo del usuario.
+- 🔎 **Búsqueda por categorías:** Explora productos de forma organizada mediante categorías específicas.
+- 🛒 **Compra de productos:** Los usuarios pueden comprar productos directamente desde la plataforma.
+- 💳 **Pasarelas de pago integradas:** Integración con **PayPal** y **Stripe** para simular y gestionar pagos de manera segura.
 
-- **Autenticación de usuarios:** Registro e inicio de sesión de usuarios con autenticación segura.
-- **Gestión de productos:** Los usuarios pueden crear, editar y eliminar sus propios productos.
-- **Búsqueda y filtrado:** Encuentra productos fácilmente mediante búsqueda avanzada y filtros.
-- **Carrito de compras:** Añade productos al carrito y realiza compras simuladas.
-- **Sistema de pujas:** Los usuarios pueden pujar por productos al estilo de eBay.
-- **Panel de administración:** Los administradores pueden gestionar las cuentas de los usuarios y los productos.
-
-## Tecnologías utilizadas
+## 🧰 Tecnologías utilizadas
 
 ### Frontend
-- **React**: Biblioteca para construir la interfaz de usuario.
-- **CSS**: Estilos personalizados para un diseño atractivo y funcional.
+- ⚛️ **React**: Construcción de interfaces dinámicas y reactivas.
+- 🎨 **CSS** y **Bootstrap**: Estilos personalizados y componentes responsivos para una experiencia visual intuitiva.
 
 ### Backend
-- **Node.js**: Entorno de ejecución de JavaScript en el servidor.
-- **Express.js**: Framework web para manejar las rutas y lógica del backend.
+- 🟩 **Node.js**: Ejecución de JavaScript del lado del servidor.
+- 🚂 **Express.js**: Framework para manejar rutas, middleware y lógica backend.
 
 ### Base de datos
-- **MongoDB**: Base de datos NoSQL para almacenar usuarios, productos y transacciones.
+- 🍃 **MongoDB**: Base de datos NoSQL para gestionar usuarios, productos y transacciones.
 
-## Instalación
-
-Sigue estos pasos para ejecutar el proyecto en tu entorno local:
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/Pablodb22/Ebay.git
+### APIs y servicios externos
+- 💌 **Nodemailer** (u otro servicio): Envío de correos de verificación.
+- 💰 **PayPal API** y **Stripe API**: Procesamiento de pagos seguros.
