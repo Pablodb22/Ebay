@@ -1,31 +1,78 @@
-# 🛒 eBay Clone
-Un clon funcional de eBay, diseñado para replicar las principales características de una plataforma de comercio electrónico. Este proyecto fue desarrollado utilizando React, Node.js y MongoDB, con un enfoque completo en la experiencia del usuario y la integración de funcionalidades clave.
+# 🛒 eBay Clone - Plataforma de Compra y Venta Online
+
+¡Bienvenido a tu propio eBay! Esta aplicación web full stack te permite comprar, vender y gestionar productos de forma sencilla y segura, inspirada en la experiencia de eBay pero desarrollada desde cero con tecnologías modernas.
+
+---
 
 ## 🚀 Funcionalidades Principales
-### 🔐 Autenticación de Usuarios con Verificación por Correo
-Los usuarios pueden registrarse e iniciar sesión en la plataforma. Al registrarse, reciben un enlace de verificación en su correo electrónico para activar su cuenta de manera segura.
 
-### 🔎 Búsqueda por Categorías
-Sistema de filtrado y navegación por categorías que permite a los usuarios explorar productos de forma organizada y eficiente.
+- **Registro y Login Seguro**  
+  Autenticación con validación, activación por email y protección JWT.
 
-### 🛒 Compra de Productos
-Funcionalidad completa para agregar productos al carrito y realizar compras directamente desde la plataforma.
+- **Gestión de Usuario**  
+  Edita tu perfil, direcciones, preferencias y seguridad desde un panel intuitivo.
 
-### 💳 Pasarelas de Pago Integradas
-Integración con las APIs de PayPal y Stripe para simular y gestionar pagos, garantizando una experiencia de compra segura.
+- **Explora y Filtra Productos**  
+  Busca por categorías, estado, formato de compra y mucho más.
 
-## 🧰 Tecnologías Utilizadas
-### 🖥️ Frontend
-- ⚛️ **React**: Librería principal para construir interfaces de usuario reactivas.
-- 🎨 **CSS y Bootstrap**: Estilización y diseño responsivo para una experiencia visual amigable en diferentes dispositivos.
+- **Compra y Venta de Productos**  
+  Añade productos, realiza compras, pujas y gestiona tus pedidos.
 
-### 🔧 Backend
-- 🟩 **Node.js**: Entorno de ejecución para JavaScript del lado del servidor.
-- 🚂 **Express.js**: Framework minimalista para gestionar rutas, middleware y lógica del servidor.
+- **Pagos Online Integrados**  
+  Soporte para Stripe, PayPal y Google Pay.
 
-### 🗄️ Base de Datos
-- 🍃 **MongoDB**: Base de datos NoSQL utilizada para almacenar información de usuarios, productos y transacciones de manera flexible y escalable.
+- **Notificaciones y Emails Automáticos**  
+  Recibe alertas de actividad, confirmaciones y recordatorios.
 
-## 🌐 APIs y Servicios Externos
-- 💌 **Nodemailer**: Herramienta utilizada para el envío de correos electrónicos de verificación de cuenta.
-- 💰 **PayPal API y Stripe API**: Servicios utilizados para simular y procesar pagos de forma segura y confiable.
+- **Geolocalización Inteligente**  
+  Selecciona provincias y municipios de España gracias a un microservicio dedicado.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+### Backend (`ebay__nodejs`)
+- **Node.js** + **Express**  
+- **MongoDB** (NoSQL)  
+- **JWT** para autenticación  
+- **Stripe & PayPal SDK**  
+- **Google APIs** (envío de emails)  
+- **bcrypt**, **dotenv**, **CORS**
+
+### Frontend (`ebay__react`)
+- **React 18**  
+- **React Router**  
+- **Zustand** (gestión de estado)  
+- **Bootstrap 5**  
+- **Fetch API**
+
+### Microservicio de Geolocalización (`geoApi_nodejs_microservice`)
+- **Node.js** + **Express**  
+- **MongoDB**  
+- **JWT**
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+/ebay__nodejs                # Backend principal (API, lógica, pagos, emails)
+/ebay__react                 # Frontend en React (SPA)
+/geoApi_nodejs_microservice  # Microservicio de provincias y municipios
+```
+
+---
+
+## ⚡ Cómo Empezar
+
+1. Clona el repositorio y entra en cada carpeta.
+2. Instala dependencias:  
+   `npm install`
+3. Configura tus variables de entorno (`.env`).
+4. Inicia backend y microservicio:  
+   `node server2.js` y `node server.js`
+5. Inicia el frontend:  
+   `npm start` en `ebay__react`
+6. ¡Listo! Accede en [http://localhost:3000](http://localhost:3000)
+
+---
